@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+}
+
+.container-small {
+    max-width: 100%;
+}
+
+.spinner {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.loading .spinner {
+    overflow: hidden;   
+}
+
+body.loading .spinner {
+    display: block;
+}
