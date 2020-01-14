@@ -1,1 +1,1 @@
-"# SmartyMedia" 
+"# Тестовое задание для SmartyMedia" 
