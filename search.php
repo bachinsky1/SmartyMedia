@@ -38,7 +38,7 @@ if (isset($tmp->errors)) {
 
 foreach ($tmp->items as $item) {
     $items[] = [
-        '<a href="'. $item->html_url .'" target="_blank">' . '<img src="'. $item->owner->avatar_url .'" width="30px">' . '</a>',
+        '<a href="'. $item->html_url .'" target="_blank"><img src="'. $item->owner->avatar_url .'" width="30px"></a>',
         '<a href="'. $item->html_url .'" target="_blank">' . $item->name . '</a>',
         $item->size,
         $item->forks_count,
